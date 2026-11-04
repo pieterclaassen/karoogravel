@@ -37,6 +37,10 @@ Review [https://pieterclaassen.github.io/karoogravel/](https://pieterclaassen.gi
 3. Update DNS to GitHub Pages per current GitHub instructions. Keep the Google Sites DNS until the switch.
 4. Enable **Enforce HTTPS** only after the certificate is issued.
 
+## Contact form
+
+The bookings page posts to `https://forms.musmato.com/v1/submissions` as form `karoogravel-enquiry`. The browser never sends a recipient. Delivery to `anna-rosa@musmato.com` happens only after that form exists in the Musmato forms registry with that recipient.
+
 ## Local preview
 
 ```bash
